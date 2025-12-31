@@ -1,0 +1,15 @@
+path:  ./output  
+train: train/images     
+val:   val/images       
+test:  test/images      
+
+
+nc: 4
+names: ['balon', 'helikoter', 'ucak', 'zeplin']
+
+roboflow:
+  workspace: havaaractanma
+  project: hava-bw5aw
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/havaaractanma/hava-bw5aw/dataset/1
